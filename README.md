@@ -25,3 +25,20 @@
   - 리스트뷰, 데이터그리드 추가학습
 
 ![WinApp](https://raw.githubusercontent.com/JeongJaeAhn/basic-CSharp-2023/main/Image/WinApp.png)
+
+## 4일차
+- C# 기본
+  - 클래스 상속 계속
+  - 인터페이스
+  
+- Win App
+  - WinForms 컨트롤 마무리
+  - WinForms 파일복사 앱
+  - 로그인앱 실습
+
+## 5일차
+- C# 기본
+
+- Win App
+  - WinForms 디자인 오류시 해결방법
+  - window 탐색기 만들기
