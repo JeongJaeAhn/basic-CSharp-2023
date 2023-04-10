@@ -47,4 +47,4 @@
   
 5일차 탐색기 만들기 중
 
-![WinApp](https://raw.githubusercontent.com/JeongJaeAhn/basic-CSharp-2023/main/Image/WinApp2.png)
+![WinApp2](https://raw.githubusercontent.com/JeongJaeAhn/basic-CSharp-2023/main/Image/WinApp2.png)
