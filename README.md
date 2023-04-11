@@ -43,8 +43,24 @@
 
 - Win App
   - WinForms 디자인 오류시 해결방법
-  - window 탐색기 만들기
+  - Window 탐색기 만들기
   
 5일차 탐색기 만들기 중
 
 ![WinApp2](https://raw.githubusercontent.com/JeongJaeAhn/basic-CSharp-2023/main/Image/WinApp2.PNG)
+
+## 6일차
+- C# 기본
+  - 컬렉션
+  - 일반화 프로그래밍
+  - 예외처리
+
+- Win App
+  - 탐색기 마무리
+    - 추가개발 리스트
+    - 컨텍스트 메뉴 (마우스 오른쪽 메뉴)
+    - 보호된 운영체제 폴더 숨기기
+    - 리스트뷰 폴더 더블클릭시 하위폴더로
+  - DB핸들링
+  - BookRentalShop DB 사용 WinForms 앱개발
+  - 실습예제
