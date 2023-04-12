@@ -75,5 +75,8 @@
   
   - Win App
     - DB핸들링
+    - SDI vs MDI
+    
+    
     - BookRentalShop DB 사용 WinForms 앱개발
     - 실습 예제
