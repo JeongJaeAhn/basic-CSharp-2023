@@ -83,5 +83,9 @@
     - 가비지 컬렉션
     
   - Win App
+    - 메모장 만들기
     - BookRentalShop DB 사용 WinForms 앱개발
-    - 실습 예제
+    
+
+심플 메모장
+![WinApp4](https://raw.githubusercontent.com/JeongJaeAhn/basic-CSharp-2023/main/Image/WinApp4.PNG)
