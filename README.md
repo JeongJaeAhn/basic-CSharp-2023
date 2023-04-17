@@ -90,3 +90,17 @@
 심플 메모장
 
 ![WinApp4](https://raw.githubusercontent.com/JeongJaeAhn/basic-CSharp-2023/main/Image/WinApp4.png)
+
+## 9일차
+- C# 기본
+  - 스레드 / 태스크
+  - 가비지 컬렉션
+  
+- Win App
+  - BookRentalShop DB 사용 WinForms 앱개발
+  
+## 10일차
+- Win App
+  - BookRentalShop DB 사용 WinForms 앱개발
+  
+- 코딩테스트
