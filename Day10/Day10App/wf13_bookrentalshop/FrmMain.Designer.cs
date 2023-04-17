@@ -34,7 +34,7 @@
             this.fileMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.MniGenreMng = new System.Windows.Forms.ToolStripMenuItem();
+            this.MniGenre = new System.Windows.Forms.ToolStripMenuItem();
             this.MniBookInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.MniMember = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
@@ -44,6 +44,8 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.LblUserId = new System.Windows.Forms.ToolStripStatusLabel();
+            this.LblLoginDatetime = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -57,7 +59,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(690, 24);
+            this.menuStrip.Size = new System.Drawing.Size(737, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -80,7 +82,7 @@
             // viewMenu
             // 
             this.viewMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MniGenreMng,
+            this.MniGenre,
             this.MniBookInfo,
             this.MniMember,
             this.toolStripMenuItem1,
@@ -89,12 +91,12 @@
             this.viewMenu.Size = new System.Drawing.Size(59, 20);
             this.viewMenu.Text = "보기(&V)";
             // 
-            // MniGenreMng
+            // MniGenre
             // 
-            this.MniGenreMng.Name = "MniGenreMng";
-            this.MniGenreMng.Size = new System.Drawing.Size(134, 22);
-            this.MniGenreMng.Text = "책장르관리";
-            this.MniGenreMng.Click += new System.EventHandler(this.MniGenreMng_Click);
+            this.MniGenre.Name = "MniGenre";
+            this.MniGenre.Size = new System.Drawing.Size(134, 22);
+            this.MniGenre.Text = "책장르관리";
+            this.MniGenre.Click += new System.EventHandler(this.MniGenre_Click);
             // 
             // MniBookInfo
             // 
@@ -140,25 +142,39 @@
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 449);
+            this.toolStripStatusLabel,
+            this.LblUserId,
+            this.LblLoginDatetime});
+            this.statusStrip.Location = new System.Drawing.Point(0, 466);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip.Size = new System.Drawing.Size(690, 22);
+            this.statusStrip.Size = new System.Drawing.Size(737, 22);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
             // toolStripStatusLabel
             // 
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(31, 17);
-            this.toolStripStatusLabel.Text = "상태";
+            this.toolStripStatusLabel.Size = new System.Drawing.Size(90, 17);
+            this.toolStripStatusLabel.Text = "로그인 아이디 :";
+            // 
+            // LblUserId
+            // 
+            this.LblUserId.Name = "LblUserId";
+            this.LblUserId.Size = new System.Drawing.Size(56, 17);
+            this.LblUserId.Text = "LblUserId";
+            // 
+            // LblLoginDatetime
+            // 
+            this.LblLoginDatetime.Name = "LblLoginDatetime";
+            this.LblLoginDatetime.Size = new System.Drawing.Size(102, 17);
+            this.LblLoginDatetime.Text = "LblLoginDatetime";
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(690, 471);
+            this.ClientSize = new System.Drawing.Size(737, 488);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -191,11 +207,13 @@
         private System.Windows.Forms.ToolStripMenuItem viewMenu;
         private System.Windows.Forms.ToolStripMenuItem helpMenu;
         private System.Windows.Forms.ToolTip toolTip;
-        private System.Windows.Forms.ToolStripMenuItem MniGenreMng;
+        private System.Windows.Forms.ToolStripMenuItem MniGenre;
         private System.Windows.Forms.ToolStripMenuItem MniBookInfo;
         private System.Windows.Forms.ToolStripMenuItem MniMember;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem MniRental;
+        private System.Windows.Forms.ToolStripStatusLabel LblUserId;
+        private System.Windows.Forms.ToolStripStatusLabel LblLoginDatetime;
     }
 }
 

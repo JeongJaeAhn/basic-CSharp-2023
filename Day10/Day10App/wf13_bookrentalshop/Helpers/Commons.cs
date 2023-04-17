@@ -15,5 +15,9 @@ namespace wf13_bookrentalshop.Helpers
                                                    "Database=bookrentalshop;" +
                                                    "Uid=root;" +
                                                    "Pwd=12345";
-    }    
+
+        // 로그인 사용자 아이디 저장변수 
+        // 프로그램전체에서 이 데이터를 공유
+        public static string LoginID = string.Empty;
+    }
 }
