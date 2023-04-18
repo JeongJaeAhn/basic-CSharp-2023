@@ -105,6 +105,7 @@
   
 - 코딩테스트
 
-10일차 책대여점 프로그램
+
+### 10일차 책대여점 프로그램
 
 ![WinApp5](https://raw.githubusercontent.com/JeongJaeAhn/basic-CSharp-2023/main/Image/WinApp5.png)
